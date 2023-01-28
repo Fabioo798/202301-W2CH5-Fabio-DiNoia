@@ -35,7 +35,7 @@ jobs:
 
       - name: Install modules
 
-        run: npm ci  //como npm i, par ubuntu. install dip
+        run: npm ci
 
       - name: ESLint validation
 

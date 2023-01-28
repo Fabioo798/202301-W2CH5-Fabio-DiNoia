@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install modules
-        run: npm ci  //como npm i para ubuntu
+        run: npm ci #como npm i para ubuntu
       - name: Testing in production with coverage
         run: npm run test:prod #Change for a valid npm script
       - name: SonarCloud Scan

@@ -3,6 +3,7 @@ export const createMatrix = (arr, row, SquareCells) => {
     for (let j = 0; j < row; j++) {
       const fillMatrix = new SquareCells();
       arr[i][j] = fillMatrix;
+      
     }
   }
 
