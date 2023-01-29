@@ -1,6 +1,6 @@
-export const arr = [[],[],[]]
-export const rows = 3;
-export const cols = 3;
+export const arr = [[], [], []];
+export const rows = 10;
+
 
 // Export class SquareCells {
 
@@ -11,4 +11,3 @@ export const cols = 3;
 //   }
 
 // }
-
