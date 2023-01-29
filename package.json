@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --watchAll --coverage",
+    "test": "jest --detectOpenHandles --coverage",
     "test:prod": "jest --watchAll --coverage --watchAll=false",
     "prepare": "husky install",
     "sass": "sass sass:css --watch"
