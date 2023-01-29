@@ -1,12 +1,13 @@
-export const arr = [[],[],[]];
-export const row = 3;
+export const arr = [[], [], []];
+export const rows = 10;
 
-export class SquareCells {
 
-  alive(){
-  }
-  
-  death(){
-  }
+// Export class SquareCells {
 
-}
+//   alive(){
+//   }
+
+//   death(){
+//   }
+
+// }
